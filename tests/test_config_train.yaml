@@ -1,0 +1,142 @@
+encoder:
+  clip_encoder:
+    type: clip
+    model_name_or_path: "/opt/product/LLaVA/checkpoints/clip-vit-large-patch14"
+    freeze: true
+    select_feature_layer: -2
+
+dataset:
+  cc3m:
+    type: "cc3m"
+    data_path: "/opt/product/LLaVA/dataset/LLaVA-CC3M-Pretrain-595K/chat.json"
+    image_folder: "/opt/product/LLaVA/dataset/LLaVA-CC3M-Pretrain-595K/images"
+    sample_ratio: 115
+    # 最大样本比例，用于小样本测试
+    max_sample_size: 1000
+    # 用于设置预处理操作
+    multimodal: true
+
+projector:
+  image_proj_7B:
+    type: "linear"
+    in_features: 1024
+    out_features: 4096
+    freeze: true
+    ckpt_path: "/opt/product/LLaVA/tools/7B_mm_projector.pt"
+  image_proj_13B:
+    type: "linear"
+    in_features: 1024
+    out_features: 5120
+    freeze: true
+    ckpt_path: "/opt/product/LLaVA/tools/13B_mm_projector.pt"
+  mlp_out_13B:
+    type: "mlp"
+    in_features: 5120
+    out_features: 256
+    freeze: false
+    ckpt_path: "/opt/product/llrs/checkpoints/mlp_13b.pt"
+  mlp_out_7B:
+    type: "mlp"
+    in_features: 4096
+    out_features: 256
+    freeze: false
+    ckpt_path: "/opt/product/llrs/checkpoints/mlp_7b.pt"
+
+llm:
+  llama2_13b:
+    type: llama2
+    model_name_or_path: "/opt/product/llama/llama-2-13b-chat-hf"
+    lora_enable: false
+    freeze: true
+  llava_13b:
+    type: llava
+    model_name_or_path: "xinlai/LISA-13B-llama2-v1"
+    lora_enable: false
+    freeze: true
+  llava_7B:
+    load_in_8bit: false
+    type: llava
+    model_name_or_path: "/opt/product/LLaVA/checkpoints/llava-7b-llama-2-7b-chat"
+    lora_enable: true
+    lora_r: 8
+    freeze: false
+
+decoder:
+  sam_decoder_h:
+    type: sam
+    model_type: "sam_h"
+    model_name_or_path: "/opt/product/llrs/checkpoints/sam_13b.pt"
+    train_mask_decoder: true
+  sam_decoder_l:
+    type: sam
+    model_type: "sam_l"
+    model_name_or_path: "/root/.cache/ckpts/sam_model_vit_l.pth"
+    train_mask_decoder: true
+
+tokenizer:
+  llama2_7B:
+    type: llama2
+    model_name_or_path: "/opt/product/LLaVA/checkpoints/llava-7b-llama-2-7b-chat"
+    add_tokens:
+      seg:
+        token: "[SEG]"
+        special_token: false
+      img:
+        token: "<im_start>,<im_end>"
+        special_token: true
+  llama2_13B:
+    type: llama2
+    model_name_or_path: "xinlai/LISA-13B-llama2-v1"
+    add_tokens:
+      seg:
+        token: "[SEG]"
+        special_token: false
+      img:
+        token: "<im_start>,<im_end>"
+        special_token: true
+
+one_model:
+  # 类型
+  type: "one_model"
+  dataset: ["cc3m"]
+  encoder: clip_encoder
+  # in_projector: image_proj_13B
+  # tokenizer: llama2_13B
+  # llm: llava_13b
+  # out_projector: mlp_out_13B
+  # decoder: sam_decoder_h
+
+  in_projector: image_proj_7B
+  tokenizer: llama2_7B
+  llm: llava_7B
+  out_projector: mlp_out_7B
+  decoder: sam_decoder_l
+  # 对话模版，取决于llm的类型
+  conv_type: "llava_llama_2"
+  # 训练模式，0: pretrain (train encoder and projector), 1: finetune (train decoder and projector), 2: full train (train encoder and decoder projector)
+  train_mode: 1
+
+trainer:
+  #  设置精度, fp16, fp32, bf16
+  precision: bf16
+  # 设置随机种子
+  seed: 12
+  # optimizer
+  lr_sched: "linear_warmup_cosine_lr"
+  init_lr: 1e-4
+  min_lr: 8e-5
+  warmup_lr: 1e-6
+
+  weight_decay: 0.05
+  max_epoch: 4
+  batch_size_train: 64
+  batch_size_eval: 64
+  num_workers: 4
+  warmup_steps: 5000
+  iters_per_epoch: 5000
+  output_dir: "output/minigpt4_stage1_pretrain"
+  amp: True
+  resume_ckpt_path: null
+  evaluate: False
+  train_splits: ["train"]
+  bits: 8

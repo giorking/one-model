@@ -1,0 +1,94 @@
+base_dir: "/home/luban/model_ckpts"
+encoder:
+  clip_encoder:
+    type: clip
+    model_name_or_path: ${base_dir}/LLaVA/checkpoints/clip-vit-large-patch14
+    freeze: true
+    select_feature_layer: -2
+
+dataset:
+  cc3m:
+    type: "cc3m"
+    data_path: ${base_dir}/LLaVA/dataset/LLaVA-CC3M-Pretrain-595K/chat.json
+    image_folder: ${base_dir}/LLaVA/dataset/LLaVA-CC3M-Pretrain-595K/images
+    sample_ratio: 115
+    # 最大样本比例，用于小样本测试
+    max_sample_size: 1000
+    # 用于设置预处理操作
+    multimodal: true
+
+projector:
+  image_proj_13B:
+    type: "linear"
+    in_features: 1024
+    out_features: 5120
+    freeze: true
+    ckpt_path: ${base_dir}/LLaVA/tools/13B_mm_projector.pt
+  mlp_out_13B:
+    type: "mlp"
+    in_features: 5120
+    out_features: 256
+    freeze: false
+    ckpt_path: ${base_dir}/llrs/checkpoints/mlp_13b.pt
+  mlp_out_sd_13B:
+    type: "mlp"
+    in_features: 5120
+    out_features: 768
+    freeze: false
+    # ckpt_path: ${base_dir}/llrs/checkpoints/mlp_13b.pt
+  dummy_projector:
+    type: "dummy"
+    freeze: true
+
+llm:
+  llama2_13b:
+    type: llama2
+    model_name_or_path: ${base_dir}/llama/llama-2-13b-chat-hf
+    lora_enable: false
+    freeze: true
+  llava_13b:
+    type: llava
+    model_name_or_path: "xinlai/LISA-13B-llama2-v1"
+    lora_enable: false
+    freeze: true
+    precision: "fp16"
+
+decoder:
+  sam_decoder_h:
+    type: sam
+    model_type: "sam_h"
+    model_name_or_path: ${base_dir}/llrs/checkpoints/sam_13b.pt
+    train_mask_decoder: true
+
+  openseed_decoder_s:
+    type: openseed
+    # config file for openseed_model build
+    config_path: "/home/luban/OpenSeeD/configs/openseed/openseed_swint_lang.yaml"
+    # model state dict for openseed_model build
+    model_name_or_path: "${base_dir}/newly/OpenSeeD/ckpts/model_state_dict_swint_51.2ap.pt"
+
+  stable_diffusion_decoder:
+    type: sd
+    # model state dict for openseed_model build
+    # model_name_or_path: "runwayml/stable-diffusion-v1-5"
+    model_name_or_path: "/home/luban/.cache/huggingface/hub/models--runwayml--stable-diffusion-v1-5/snapshots/1d0c4ebf6ff58a5caecab40fa1406526bca4b5b9"
+
+tokenizer:
+  llama2_13B:
+    type: llama2
+    model_name_or_path: "xinlai/LISA-13B-llama2-v1"
+
+one_model:
+  # 类型
+  type: "one_model"
+  dataset: null
+  encoder: clip_encoder
+  in_projector: image_proj_13B
+  tokenizer: llama2_13B
+  llm: llava_13b
+  # out_projector: ["dummy_projector", "mlp_out_13B"]
+  # decoder: ["openseed_decoder_s", "sam_decoder_h"]
+  out_projector: ["mlp_out_13B", "dummy_projector", "dummy_projector"]
+  decoder: ["sam_decoder_h", "openseed_decoder_s", "stable_diffusion_decoder"]
+  # 对话模版，取决于llm的类型
+  conv_type: "plain"

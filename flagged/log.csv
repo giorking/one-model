@@ -1,0 +1,115 @@
+Text Instruction,Input Image,flag,username,timestamp
+segment all,/home/luban/one_model/flagged/Input Image/2b6df30289842cafd19dd08d3dda4d657499478c/tmpi8fh8e34.jpg,,,2023-10-25 16:03:31.086107
+segment all,/home/luban/one_model/flagged/Input Image/a817fb5906b1ab743c2617c48a3d4fef1b0c4418/tmpl5urd0bu.jpg,,,2023-10-25 16:08:58.066655
+segment all,/home/luban/one_model/flagged/Input Image/1ae77d1a459ea416211c76460d4c1c3bcf4152ec/tmpf2l0vz04.jpg,,,2023-10-25 16:10:26.114079
+can you segment all?,/home/luban/one_model/flagged/Input Image/3faf3f5be26ec39b5919b66769ea8fbd04753c99/tmpka4v0_or.jpg,,,2023-10-26 16:02:52.829609
+can you segment everything?,/home/luban/one_model/flagged/Input Image/5c5665dcff78deeaf4116a6f66abf53de8507791/tmp9kx5p6uk.jpg,,,2023-10-26 16:05:49.089413
+can you segment everything?,/home/luban/one_model/flagged/Input Image/6ea9002f23039721c07bfc6a45f89d4dcbc13e1a/tmp61_9mc7t.jpg,,,2023-10-26 16:13:40.179159
+can you segment everything?,/home/luban/one_model/flagged/Input Image/6290e76de8eaa8fc67d3cbf819f8dcceaef3c4f9/tmp9_xe5rdd.jpg,,,2023-10-27 03:39:05.118922
+can you segment everything?,/home/luban/one_model/flagged/Input Image/e3d7198e0c24f99e24c9911c555fe12959f3cc65/tmp5sxpiv0f.jpg,,,2023-10-27 03:39:41.272908
+can you segment everything?,/home/luban/one_model/flagged/Input Image/fe687ad3df51bedb4056fcf12132518bdca49570/tmpz9cel9hf.jpg,,,2023-10-27 03:46:52.181658
+can you segment everything?,/home/luban/one_model/flagged/Input Image/30508da160dae3439437bd22050637283e631444/tmpxvq5mjm9.jpg,,,2023-10-27 03:47:16.067378
+can you segment everything?,/home/luban/one_model/flagged/Input Image/d932ef6983ac813de05535b95c2b3eec34d0ae88/tmp8bsaes53.jpg,,,2023-10-27 14:38:47.183892
+can you segment everything?,/home/luban/one_model/flagged/Input Image/d95ba42219e2421498420e4914dcf5d81cc6eadf/tmpjpr72fvq.jpg,,,2023-10-27 14:39:17.790572
+can you segment it?,/home/luban/one_model/flagged/Input Image/7238e3694ff126880c5fd524ff6eb11f522a87e3/tmp03vr9oia.jpg,,,2023-10-27 14:59:49.813649
+can you segment everything?,/home/luban/one_model/flagged/Input Image/85e6a6015b6fd7e5490704ab904889fe745d8da7/tmpj1awmud_.jpg,,,2023-10-27 15:00:21.104979
+can you segment everything?,/home/luban/one_model/flagged/Input Image/3c69f046070bd21e348319c1603b7b3e74f2c183/tmp6eo6h0r2.jpg,,,2023-10-27 15:29:36.181206
+can you segment everything?,/home/luban/one_model/flagged/Input Image/c183e63096346fbd8b6e795b17d9acd497fb9a9a/tmpt5_3l8jv.jpg,,,2023-10-27 15:53:54.067730
+generate a picture of a man on the ladder,,,,2023-10-27 17:04:33.560399
+generate a picture of man on the ladder,,,,2023-10-27 17:09:28.444063
+generate a picture of a man on the ladder,,,,2023-10-29 15:26:24.405316
+generate a picture of a man on the ladder,/home/luban/one_model/flagged/Input Image/c19c68ae03f8d1de7af6c248ed322d7054d5f56c/tmptlxgfpmn.jpg,,,2023-10-29 15:29:01.768702
+describe the image,/home/luban/one_model/flagged/Input Image/bd86bec9ec2b9b7f94fce1ab6c916bf4cd259a94/tmpkjz1yv0k.jpg,,,2023-10-29 15:32:20.069239
+describe the image,/home/luban/one_model/flagged/Input Image/8b32e748a10fc391963b333d3232f53c1448534c/tmpqcp8cbu8.jpg,,,2023-10-29 15:34:56.574318
+describe the image,/home/luban/one_model/flagged/Input Image/82fcec7e3c1c950f28af131937f8277e63033daf/tmp8jk6qqn1.jpg,,,2023-10-29 15:41:02.989777
+describe the image,/home/luban/one_model/flagged/Input Image/8c0257aafc90e000423ea1cc1ebd4081743d8d0d/tmp5hdo4v60.jpg,,,2023-10-29 15:50:44.206809
+describe the image,/home/luban/one_model/flagged/Input Image/fdc4dfde2daff3c619ba4ca7d6919813653039e7/tmpqsijmt0j.jpg,,,2023-10-29 16:11:37.068805
+generate a picture of a man on the ladder,,,,2023-10-29 16:13:54.817988
+generate a picture of a man,,,,2023-10-29 16:14:35.603674
+generate a picture of a man,/home/luban/one_model/flagged/Input Image/0b4796033c17812476b5e9c9e19a6d64eada3e22/tmpvjlv2fsb.jpg,,,2023-10-29 16:22:10.210703
+generate a picture of a man,/home/luban/one_model/flagged/Input Image/6f5d51703681ac4f63f9e561eb15f1c487899bcf/tmpqhtkpip1.jpg,,,2023-10-29 16:22:28.257459
+segment everything,/home/luban/one_model/flagged/Input Image/780bf04c7edd01e40e9b5b02a99883485fa1d6e7/tmpvdkroejf.jpg,,,2023-10-29 16:23:57.947090
+segment everything,/home/luban/one_model/flagged/Input Image/1407114f9b4399cdd1932fb139842993cc45f924/tmpkn4xdlje.jpg,,,2023-10-29 16:28:40.313445
+segment everything,/home/luban/one_model/flagged/Input Image/23c3e55b070b677f0977b83134d00a226ba2bccd/tmpicd_7qtd.jpg,,,2023-10-29 16:29:35.638608
+segment everything,/home/luban/one_model/flagged/Input Image/69d3a7466fb47ca52b909f1a4d86a62874ba82f6/tmp99nqguue.jpg,,,2023-10-29 16:41:34.666661
+segment everything,/home/luban/one_model/flagged/Input Image/6f5fb7944a7c77a27cabf2dded71066dec3255ce/tmpo46ch8nz.jpg,,,2023-10-29 16:42:12.694280
+describe the image,/home/luban/one_model/flagged/Input Image/30024ac77e1d4f70a09efc705eba9e0725e21574/tmpp1vropfc.jpg,,,2023-10-29 16:44:28.580236
+describe the image,/home/luban/one_model/flagged/Input Image/0f1a74313cb3588d58c483945eb2f7c0628b4fa9/tmpr5rbcc9y.jpg,,,2023-10-29 16:45:20.049602
+"Give a description for each visible object in the image and their count, using a list format. Also, describe visible details about these objects and describe the interrelationships among these objects.",/home/luban/one_model/flagged/Input Image/a74748e2c5789abc473329bcc8f5ece3d37bea9f/tmpb9a1lj8z.jpg,,,2023-10-29 16:46:38.908385
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/e3e0a3054b7a34c3d0a65cf0c396c643990085f1/tmpoaizzgoo.jpg,,,2023-10-29 16:47:46.613211
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/582b9c2dc77b916ae1da5c55154d41eb123ee435/tmprbb8u130.jpg,,,2023-10-29 16:49:36.057668
+create a picture of a man on the ladder,/home/luban/one_model/flagged/Input Image/eb7970fb636d1739a5a3253f16e02a0c5db652be/tmpfw1b2oyy.jpg,,,2023-10-29 17:02:31.929733
+create a picture of a man on the ladder,/home/luban/one_model/flagged/Input Image/a4fa1c1895f7191eb987f269679e169e9bb883d7/tmpxl7tbmxf.jpg,,,2023-10-29 17:17:44.191551
+create a picture of a man,/home/luban/one_model/flagged/Input Image/9ecdc6d9940bd540a842b57c004a648be1b8baef/tmpz425ctdd.jpg,,,2023-10-29 17:18:20.299001
+create a picture of a man,,,,2023-10-29 17:21:58.972439
+create a picture of a man,/home/luban/one_model/flagged/Input Image/177ae2aca475b8907a7b90e0e57be1dbd4968dfc/tmp_2rc6dey.jpg,,,2023-10-29 17:22:11.803726
+create a picture of an empty trailer,/home/luban/one_model/flagged/Input Image/97b04eee41e53cb153e2108dbeff4e842273ef1b/tmpdufex21z.jpg,,,2023-10-29 17:22:40.678299
+create a picture of an empty flatbed,/home/luban/one_model/flagged/Input Image/63de0c441ffbd3a2945bf9b39a43dc1e5531ed5e/tmp0zba7rdv.jpg,,,2023-10-29 17:23:28.763486
+create a picture of an empty flatbed,,,,2023-10-30 05:35:25.508582
+Generate a image of an empty flatbed,,,,2023-10-30 05:44:12.522560
+Generate a image of an empty flatbed,/home/luban/one_model/flagged/Input Image/561ea843c9af0dfc2b4ab910c75313717931d181/tmpxolr4qti.jpg,,,2023-10-30 05:46:42.445118
+Generate a image of an empty flatbed,/home/luban/one_model/flagged/Input Image/14b0fcfb9042cdb98585bfd19c3544b64efccfb7/tmpnj7eck6v.jpg,,,2023-10-30 05:52:18.755621
+Generate a image of an empty flatbed,,,,2023-10-30 06:01:47.061145
+Generate a image of an empty flatbed,,,,2023-10-30 06:02:01.918163
+Can you segment everything in this image?,/home/luban/one_model/flagged/Input Image/6743808cb470e383d888e34b6f7f8a33fef54fb3/tmp69n5bgeo.jpg,,,2023-10-30 07:32:33.264400
+Can you segment truck in this image,/home/luban/one_model/flagged/Input Image/9f52418613ed98a8d16488eb88b153b53f10c634/tmpfnc4zbnl.jpg,,,2023-10-30 10:50:05.029924
+Can you segment truck in this image,/home/luban/one_model/flagged/Input Image/d4155398244e6d2a938ac0388a14106ce591d4cc/tmplepke11x.jpg,,,2023-10-30 10:50:35.427344
+can you segment everything?,/home/luban/one_model/flagged/Input Image/c013b4bfdd09f77f2888914424fb468ebf2fe0b0/tmpp4gvoxuj.jpg,,,2023-10-30 13:06:35.104734
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/1e989534de177499b1dfbfa29eda9fe2601ed175/tmp1igslhm4.jpg,,,2023-10-30 13:07:51.344444
+segment text regions,/home/luban/one_model/flagged/Input Image/c6ba0305d77dfc708e4700720f207bdc7b9327cc/tmpkb0dxuzs.gif,,,2023-10-30 13:10:01.922335
+Can you segment truck in this image?,/home/luban/one_model/flagged/Input Image/380025a0597b8de3f5a47a3c429ea523030d0f2a/tmptqwa7gu4.jpg,,,2023-10-30 13:11:53.999920
+Can you segment truck?,/home/luban/one_model/flagged/Input Image/f16e7aaf1f8dd70ac580488f466670b70d8a886e/tmppd_vdwk6.jpg,,,2023-10-30 13:12:30.378933
+Can you segment building?,/home/luban/one_model/flagged/Input Image/22baf294697c7c6c227cfd9be458643ab429bbfe/tmpc5apmkc8.jpg,,,2023-10-30 13:12:59.083231
+Can you segment left truck?,/home/luban/one_model/flagged/Input Image/62b3f7b37d33067700e910e6393beb4b7d59d5d3/tmpww0niehd.jpg,,,2023-10-30 13:14:53.173006
+can you segment left truck?,/home/luban/one_model/flagged/Input Image/311e2424393789fabe8a2a5f93c33babe1448f81/tmp5h35z9_6.jpg,,,2023-10-30 13:15:40.962586
+segment the truck,/home/luban/one_model/flagged/Input Image/36c238dca5a5c22dfdffb8fa01a31130af4454df/tmp4jdc5l2p.jpg,,,2023-10-30 13:17:18.398782
+segment the left truck,/home/luban/one_model/flagged/Input Image/992c9cde56f663da8f7a130ff776eb5c53b786d3/tmpj8fg140b.jpg,,,2023-10-30 13:17:39.772437
+segment the right truck,/home/luban/one_model/flagged/Input Image/16777108ea64aa679c60771ad875ae3228d0c5fd/tmpzhf1etgl.jpg,,,2023-10-30 13:17:59.228488
+segment the  road,/home/luban/one_model/flagged/Input Image/d686dd630c3cfcb07a501da2a3ebe71b7249c426/tmpawpz5q3j.jpg,,,2023-10-30 13:18:19.139422
+dog,,,,2023-10-30 13:22:24.400933
+Can you segment everything in this image,/home/luban/one_model/flagged/Input Image/fda4705513df7a8982d431ee24e7d4a29a679fcf/tmp5prgik3u.jpg,,,2023-10-30 13:22:48.943231
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/081ecca8cc3b26fcca51763e1fe1976187d31622/tmp6f4rly0b.jpg,,,2023-10-30 13:23:18.631436
+Generate a image of an empty flatbed,/home/luban/one_model/flagged/Input Image/63471f57f3d775ee4acad0d488e3e9f32f0a6824/tmp0mz7a6ke.jpg,,,2023-10-30 13:25:52.221459
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/c3596f9487d8f820094637f7c55adef1ac7ae076/tmps5mkba4o.jpg,,,2023-10-30 13:32:19.904222
+"4 pictures of commercial photography cat, background white",,,,2023-10-30 13:37:43.163621
+generate commercial photography elephant,,,,2023-10-30 13:39:26.692843
+generate commercial photography elephant,,,,2023-10-30 13:39:35.942481
+generate commercial photography panda eating banana,,,,2023-10-30 13:40:17.525739
+truck tralier,,,,2023-11-01 10:17:25.765409
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/e7172656dc1575b7f7371f77d2a225e83986da6a/tmpu6_d192z.png,,,2023-11-01 10:20:02.099547
+Segment the man.,/home/luban/one_model/flagged/Input Image/40115e3b83e621eacf68bfa27c9805818a9e350d/tmpix45h9x8.png,,,2023-11-01 10:22:18.052740
+Segment the cigarette.,/home/luban/one_model/flagged/Input Image/f304ae1e8b918675eeee519d50d455ccaf310c45/tmp14mf9n1k.png,,,2023-11-01 10:22:52.040938
+Segment the hair.,/home/luban/one_model/flagged/Input Image/30e8988f0ece299276bcb31b86dbaad22368c110/tmpqrsgjrb8.png,,,2023-11-01 10:23:18.200246
+Generate a image of an empty flatbed,/home/luban/one_model/flagged/Input Image/6907b513c9d2628eceedbe17be6776f1f02e6821/tmpduhrfti0.png,,,2023-11-01 10:24:19.316590
+Generate a image of an man kiss woman.,,,,2023-11-01 10:25:01.817922
+Generate a image of a truck tralier.,,,,2023-11-01 10:25:20.991777
+Generate a image of a sheep stand on a car.,,,,2023-11-01 10:27:02.590329
+Generate a image of a dog stand on a car.,,,,2023-11-01 10:27:46.935600
+Generate a image of some pigs stand on a car.,,,,2023-11-01 10:28:25.594846
+a pig drive the car,,,,2023-11-01 10:30:14.040947
+Generate a image a pig drive the car,,,,2023-11-01 10:30:38.637462
+can you segment the man?,/home/luban/one_model/flagged/Input Image/2779d83816adcf986d271df58f606cfd93debd9a/tmph8_0nho5.jpg,,,2023-11-07 05:02:09.659671
+can you segment the cigarette?,/home/luban/one_model/flagged/Input Image/88e61518987da052a46e7d459c7c32e97a11b3d9/tmpftkg43ao.jpg,,,2023-11-07 05:03:02.129953
+can you segment cigarette?,/home/luban/one_model/flagged/Input Image/8c4c59f5ef0dcf349753f5a3dae10b78e8d5ea66/tmpvjfq06n4.jpg,,,2023-11-07 05:03:30.005382
+can you segment the cigarette?,/home/luban/one_model/flagged/Input Image/9c5ded71f71dba4f2a5976783c849838d7c614cb/tmppfc387jg.jpg,,,2023-11-07 05:03:47.386785
+segment the cigarette,/home/luban/one_model/flagged/Input Image/2fee4cf252701b1375174c48c9761d8ec851f55a/tmp4sr7us2w.jpg,,,2023-11-07 05:04:15.541139
+segment the cigarette,/home/luban/one_model/flagged/Input Image/4d5f70cc9eac96e9b3990b7668261d3d7bd94386/tmp12_qfguy.jpg,,,2023-11-07 05:07:15.385251
+segment the man,/home/luban/one_model/flagged/Input Image/037ed5ea9300d327b1c88847daa55d60404f4dc4/tmpmkrpfnis.jpg,,,2023-11-07 05:07:30.600455
+can you segment the man?,/home/luban/one_model/flagged/Input Image/4d682269e97fc9d52a8a57d16e60a032c44755a9/tmpbcck3dw3.jpg,,,2023-11-07 05:12:26.492615
+can you segment the man?,/home/luban/one_model/flagged/Input Image/7ba23469b6e5e3958fda535dad77b5de1c4846ce/tmpvvspsuap.jpg,,,2023-11-07 05:14:40.099072
+segment the cigarette,/home/luban/one_model/flagged/Input Image/d98dce68840c7be14001b3167c7d42209e10393d/tmpn8hyphry.jpg,,,2023-11-07 05:15:07.280978
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/fe9c58bb1f88e535d97b029e47432c754bd84748/tmp8fxb9vt7.jpg,,,2023-11-07 05:16:06.801978
+can you segment the red car?,/home/luban/one_model/flagged/Input Image/f2d60984392baffd44c0fb1e6b4ada701efb76e3/tmpzeps27sv.jpg,,,2023-11-07 05:21:43.964510
+can you segment the man?,/home/luban/one_model/flagged/Input Image/aeb259b87f6a7e394913d9912dc1d7504cb48fa0/tmpzvct878h.jpg,,,2023-11-07 05:22:07.705931
+segment the cigarette,/home/luban/one_model/flagged/Input Image/8ea7a512e344663bfb9e5c2628e6171d2242c8c0/tmp1swefhkf.jpg,,,2023-11-07 05:22:30.474109
+can you segment everything in this image?,/home/luban/one_model/flagged/Input Image/09fceb52303aa4f155899cb78323433156f47dcc/tmpsmypizoe.jpg,,,2023-11-07 05:23:05.768856
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/8a878500b5bdf2b77d37fccd3eca98ed70b6ebb3/tmp2hr6xmtu.jpg,,,2023-11-07 05:23:38.399552
+Generate a image of a little cat.,,,,2023-11-07 05:25:59.740362
+Generate an image of a truck.,,,,2023-11-07 05:26:23.477852
+Generate an image of an empty flatbed.,,,,2023-11-07 05:26:56.718000
+Generate an image of a little cat.,,,,2023-11-07 05:30:25.456812
+Can you segment everything in this image?,/home/luban/one_model/flagged/Input Image/27c6159ae61f4cd799ea068c449892b5c4ad2d3a/tmpljc03k53.jpg,,,2023-11-07 05:31:08.257304
+describe visible details about these objects and describe the interrelationships among these objects.,/home/luban/one_model/flagged/Input Image/8aea4a2cbf6a17015b7ab95d7599aec9858f0343/tmpjnp39n5t.jpg,,,2023-11-07 05:31:42.076718
+can you segment the red car?,/home/luban/one_model/flagged/Input Image/b8780df043ac8376f218c0dc262500f57831d092/tmphot6417_.jpg,,,2023-11-07 05:35:29.746919
+can you segment the blue car?,/home/luban/one_model/flagged/Input Image/8510d9afb54b993e561804258a5cebb1460926bc/tmp_xkgh62o.jpg,,,2023-11-07 05:35:54.351350
+,/home/luban/one_model/flagged/Input Image/c1c56fb1295854af129a749619e6659fd4965f0d/tmpwysp8ao0.png,,,2023-11-09 05:34:22.062969
