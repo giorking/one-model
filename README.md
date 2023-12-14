@@ -370,7 +370,7 @@ Researches on industry implementation solutions for related tasks is conducted a
 
 
 # 4. Core Implementation
-## 5.1 Code Architecture
+## 4.1 Code Architecture
 Most open-source MLLM (Multimodal Large Language Model) codebases, initially coded with a focus on specific tasks of interest, exhibit poor extensibility and lack good abstractions for plugging in subsequent tasks.
 Here, with an eye towards "① flexibility" and "② ease of use" for the expansion of future multimodal tasks, the code architecture is designed, encompassing the following key features:
 
